@@ -1,0 +1,12 @@
+[Unit]
+Description=Setup ATT Bypass service
+Wants=network-online.target
+After=network-online.target
+
+[Service]
+Type=oneshot
+ExecStart=/data/on_boot.d/0-att-bypass.sh
+RemainAfterExit=yes
+
+[Install]
+WantedBy=multi-user.target
