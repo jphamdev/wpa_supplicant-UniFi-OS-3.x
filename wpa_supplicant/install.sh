@@ -2,7 +2,7 @@
 # This script installs wpa_supplicant the first time.
 
 if ! dpkg -l wpa_supplicant | grep ii >/dev/null; then
-    dpkg -i /data/wpa_supplicant/libreadline7*.deb
+    dpkg -i /data/wpa_supplicant/libreadline8*.deb
     dpkg -i /data/wpa_supplicant/wpasupplicant_2.9*.deb
 fi
 
