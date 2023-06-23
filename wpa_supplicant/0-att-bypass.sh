@@ -6,6 +6,7 @@ if ! dpkg -l wpasupplicant | grep ii >/dev/null; then
     dpkg -i /data/wpa_supplicant/wpasupplicant_2.9*.deb
 fi
 
+
 DATA_WPASUPPLICANT_DIR=/data/wpa_supplicant
 
 WPASUPPLICANT_CONF_DIR=/etc/wpa_supplicant/conf
