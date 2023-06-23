@@ -51,7 +51,7 @@ if [ ! -d "$WPASUPPLICANT_SERVICE_DIR" ]; then
 fi
 
 if [ ! -f "$OVERRIDE_CONF" ]; then
-    if /sbin/ethtool eth8 | grep -q "Link detected: yes"; then
+    if /sbin/ethtool eth8 | grep -q "Link detected:"; then
         cp ${DATA_WPASUPPLICANT_DIR}/override_UDMPro_UDMProSE.conf ${DATA_WPASUPPLICANT_DIR}/override.conf
         cp ${DATA_WPASUPPLICANT_DIR}/override_UDMPro_UDMProSE.conf ${OVERRIDE_CONF}
     else
