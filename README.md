@@ -24,3 +24,6 @@ Trying to keep it simple as possible. Enjoy!
 
 ## Manual Steps
 TBD
+
+## Donations
+### [Buy Me a ~~Coffee~~ Beer](https://bmc.link/jphamdev)
